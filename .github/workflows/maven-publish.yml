@@ -6,8 +6,6 @@ name: Maven Package
 on:
   workflow_dispatch:
     inputs:
-      Environment:
-        required: true
       Provide tag to run the test suite:
         required: true
       Sauce username:
